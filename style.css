@@ -1,0 +1,27 @@
+body{
+    background-color:darkgrey;
+    color: white;
+}
+.view {
+    margin-left: 30%;
+    width: 30%;
+    background-color:cadetblue;
+    text-align: center;
+    font-size: 20px;
+}
+select {
+    width: 400px;
+    background-color:slateblue;
+    color: white;
+}
+.select-checkbox option::before {
+    content: "\2610";
+    text-align: center;
+    display: inline-block;
+}
+.select-checkbox option:checked::before { 
+    content: "\2611";
+}
+.hide {
+    display: none;
+}
